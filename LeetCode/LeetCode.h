@@ -4,7 +4,7 @@ using namespace std;
 
 class LeetCode{
 public:
-	string ReverseWords(string s);
+	void ReverseWords(string &s);
 };
 
 

@@ -3,6 +3,7 @@
 void main(){
 
 	LeetCode *object=new LeetCode();
-	string s="Hello World";
-	cout<<object->ReverseWords(s)<<endl;
+	string s="         ";
+	object->ReverseWords(s);
+	cout<<s;
 }
