@@ -1,9 +1,8 @@
 #include"LeetCode.h"
 
 void main(){
-
-	LeetCode *object=new LeetCode();
-	string s="         ";
-	object->ReverseWords(s);
+	LeetCode object;
+	string s="i love you";
+	object.ReverseWords(s);
 	cout<<s;
 }
