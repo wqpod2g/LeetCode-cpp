@@ -24,7 +24,7 @@ void  LeetCode::ReverseWords(string &s)
 	if(temp!="")
 		st.push(temp);
 	s="";
-	while(st.size()>1)
+	while(st.size()>=1)
 	{
 		s=s+st.top();
 		st.pop();

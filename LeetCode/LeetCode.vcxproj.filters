@@ -26,5 +26,8 @@
     <ClCompile Include="solusions.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="ReversePolishNotation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

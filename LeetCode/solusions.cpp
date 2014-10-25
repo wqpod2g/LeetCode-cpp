@@ -2,7 +2,9 @@
 
 void main(){
 	LeetCode object;
-	string s="i love you";
-	object.ReverseWords(s);
-	cout<<s;
+	vector<string>s;
+	s.push_back("3");
+	s.push_back("2");
+	s.push_back("+");
+	cout<<object.evalRPN(s);
 }
